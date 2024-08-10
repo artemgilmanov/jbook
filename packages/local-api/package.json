@@ -1,6 +1,6 @@
 {
   "name": "@jsketch/local-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -23,7 +23,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@jsketch/local-client": "^1.0.0",
+    "@jsketch/local-client": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "http-proxy-middleware": "^3.0.0"

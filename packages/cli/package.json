@@ -1,6 +1,6 @@
 {
   "name": "jsketch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
     "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV='production' --external:node:events --external:node:child_process --external:node:path --external:node:fs --external:node:process"
@@ -17,13 +17,13 @@
     "access": "public"
   },
   "dependencies": {
-    "@jsketch/local-client": "^1.0.0"
+    "@jsketch/local-client": "^1.0.2"
   },
   "devDependencies": {
+    "@jsketch/local-api": "^1.0.2",
     "@types/node": "^22.1.0",
-    "@jsketch/local-api": "^1.0.0",
-    "esbuild": "0.8.26",
     "commander": "^12.1.0",
+    "esbuild": "0.8.26",
     "typescript": "^5.5.4"
   }
 }
