@@ -1,6 +1,6 @@
 {
   "name": "jsketch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
     "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV='\"production\"' --external:node:events --external:node:child_process --external:node:path --external:node:fs --external:node:process"
