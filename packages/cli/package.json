@@ -17,12 +17,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@jsketch/local-client": "^1.0.2"
+    "@jsketch/local-api": "^1.0.2",
+    "commander": "^12.1.0"
   },
   "devDependencies": {
-    "@jsketch/local-api": "^1.0.2",
     "@types/node": "^22.1.0",
-    "commander": "^12.1.0",
     "esbuild": "0.8.26",
     "typescript": "^5.5.4"
   }
