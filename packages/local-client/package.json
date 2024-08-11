@@ -67,5 +67,6 @@
     "constants-browserify": "^1.0.0",
     "os-browserify": "^0.3.0",
     "react-app-rewired": "^2.2.1"
-  }
+  },
+  "gitHead": "dad3aead238c0704f471736197e0327a9457480d"
 }
